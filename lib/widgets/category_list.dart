@@ -43,7 +43,7 @@ class CategoryList extends StatelessWidget {
       height: 90,
       child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          itemBuilder: (ctx, index) => CategoryItem(data: categories[index],   ),
+          itemBuilder: (ctx, index) => CategoryItem(data: categories[index]),
           separatorBuilder: (ctx, index) => const SizedBox(width: 10),
           itemCount: 7),
     );

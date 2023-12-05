@@ -44,7 +44,7 @@ class _ArtcialPageState extends State<ArtcialPage> {
     return Scaffold(
       body: loadingPercentage < 100
           ? Center(
-              child:  LinearProgressIndicator(
+              child:  CircularProgressIndicator(
                 value: loadingPercentage / 100.0,
               ),
             )
